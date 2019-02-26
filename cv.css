@@ -1,0 +1,86 @@
+@media print {
+	body,.page {
+		margin: 0;
+		box-shadow: 0;
+		-webkit-print-color-adjust: exact;
+	}
+	a {
+		color: #333;
+	}
+}
+@font-face {
+	font-family: LigatureSymbols;
+	src: url(LigatureSymbols-2.11.ttf);
+}
+body {
+	background: #CCC;
+	color: #333;
+	font-family: serif;
+}
+img	{
+	width: 100%;
+}
+table {
+	width: 100%;
+	text-align: justify;
+}
+td {
+	padding: 2px 5px;
+}
+span {
+	font-family: LigatureSymbols;
+	font-size: 20pt;
+	font-weight: bold;
+}
+.page{
+	background: -webkit-linear-gradient(left, #EEE , #EEE 17mm, #DDD 17mm, #DDD 82mm, #EEE 82mm, #EEE);
+	width: 178mm;
+	height: 276.94mm;
+	margin: 0 auto;
+	padding: 12mm 12mm 8mm 20mm;
+	box-shadow: 0 0 5mm rgba(0,0,0,0.5);
+}
+.page>* {
+	float: left;
+}
+.top {
+	width: inherit;
+}
+.left {
+	width: 33%;
+	margin-right: 4%;
+}
+.right {
+	width: 63%;
+	margin-top: 16px;
+}
+.left td:first-child {
+	text-align: left;
+}
+.left td:last-child {
+	text-align: right;
+}
+.right td:first-child {
+	vertical-align: top;
+}
+.section,table.top {
+	border-bottom: 1px solid #333;
+}
+.section td:first-child {
+	text-align: left;
+}
+.section td:last-child,.top td:last-child {
+	font-size: 14pt;
+	font-weight: normal;
+	text-align: right;
+}
+.info td {
+	padding: 0px 5px;
+}
+.info td:first-child {
+	text-align: center;
+}
+.info td>span, .skills td>span {
+	font-size: 14pt;
+	font-weight: normal;
+}
