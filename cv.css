@@ -13,7 +13,7 @@
 	src: url(LigatureSymbols-2.11.ttf);
 }
 body {
-	background: #fafafa;
+	background: #CCC;
 	color: #333;
 	font-family: serif;
 }
@@ -33,7 +33,7 @@ span {
 	font-weight: bold;
 }
 .page{
-	background-color: #fff;
+	background: -webkit-linear-gradient(left, #EEE , #EEE 17mm, #DDD 17mm, #DDD 82mm, #EEE 82mm, #EEE);
 	width: 178mm;
 	height: 276.94mm;
 	margin: 0 auto;
@@ -83,7 +83,4 @@ span {
 .info td>span, .skills td>span {
 	font-size: 14pt;
 	font-weight: normal;
-}
-h2 {
-	font-size: 22px;
 }
