@@ -33,7 +33,7 @@ span {
 	font-weight: bold;
 }
 .page{
-	background: -webkit-linear-gradient(left, #EEE , #EEE 17mm, #DDD 17mm, #DDD 82mm, #EEE 82mm, #EEE);
+	background-color: #fff;
 	width: 178mm;
 	height: 276.94mm;
 	margin: 0 auto;
@@ -83,4 +83,7 @@ span {
 .info td>span, .skills td>span {
 	font-size: 14pt;
 	font-weight: normal;
+}
+h2 {
+	font-size: 22px;
 }
